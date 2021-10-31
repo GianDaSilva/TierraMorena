@@ -1,9 +1,10 @@
 import styled from 'styled-components'
 import {Link as LinkR} from 'react-router-dom'
 import {Link as LinkS} from 'react-scroll'
+//import './Scriptina_Pro-webfont.woff'
 
 export const Nav = styled.nav`
-    background: #000;
+    background: ${({scrollNav}) => (scrollNav ? '#154c79' : 'transparent')};
     height: 80px;
     margin-top : -80px;
     display: flex;
@@ -30,15 +31,19 @@ export const NavbarContainer = styled.div`
 `
 
 export const NavLogo = styled(LinkR)`
-    color: #fff;
     justify-self: flex-start;
     cursor: pointer;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     display: flex;
     align-items: center;
     margin-left: 24px;
     font-weight: bold;
     text-decoration: none;
+    color: orange;
+    
+    
+
+@font-face {font-family: "Scriptina Pro"; src: url("//db.onlinewebfonts.com/t/eef1c168497763b314670a275af92bc6.eot"); src: url("//db.onlinewebfonts.com/t/eef1c168497763b314670a275af92bc6.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/eef1c168497763b314670a275af92bc6.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/eef1c168497763b314670a275af92bc6.woff") format("woff"), url("//db.onlinewebfonts.com/t/eef1c168497763b314670a275af92bc6.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/eef1c168497763b314670a275af92bc6.svg#Scriptina Pro") format("svg"); }
 `
 
 export const MobileIcon = styled.div`
@@ -80,9 +85,9 @@ padding: 0 1rem;
 height: 100%;
 cursor: pointer;
 
-&.active {
-    border-bottom: 3px solid #01bf71;
-}
+  &.active {
+    border-bottom: 3px solid orange;
+  }
 `
 
 export const NavBtn = styled.nav`

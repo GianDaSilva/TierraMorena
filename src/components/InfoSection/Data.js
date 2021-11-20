@@ -1,4 +1,4 @@
- import foto1 from '../../images/svg-1.svg'
+ import foto1 from '../../images/Captura.png'
  import foto2 from '../../images/svg-2.svg'
  import foto3 from '../../images/svg-3.svg'
 

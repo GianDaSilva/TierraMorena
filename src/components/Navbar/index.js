@@ -45,16 +45,16 @@ import {Nav,
                     </MobileIcon>
                     <NavMenu>
                         <NavItem>
-                            <NavLinks to= 'about' smooth={true} duration={500} spy={true} exact='true' offset={-80}>About</NavLinks>
+                            <NavLinks to= 'about' smooth={true} duration={500} spy={true} exact='true' offset={-80}>Nosotros</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to= 'discover' smooth={true} duration={500} spy={true} exact='true' offset={-80}>Discover</NavLinks>
+                            <NavLinks to= 'discover' smooth={true} duration={500} spy={true} exact='true' offset={-80}>Ubicacion</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to= "services" smooth={true} duration={500} spy={true} exact='true' offset={-80}>Services</NavLinks>
+                            <NavLinks to= "services" smooth={true} duration={500} spy={true} exact='true' offset={-80}>Servicios</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to= "signup" smooth={true} duration={500} spy={true} exact='true' offset={-80}>Sign Up</NavLinks>
+                            <NavLinks to= "signup" smooth={true} duration={500} spy={true} exact='true' offset={-80}>Contacto</NavLinks>
                         </NavItem>
                     </NavMenu>
                     

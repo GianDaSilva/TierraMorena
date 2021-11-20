@@ -6,7 +6,7 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-background: #010606;
+background: #12607b;
 
 @media screen and (max-width: 768px){
     height: 1100px;

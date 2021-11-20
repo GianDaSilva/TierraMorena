@@ -4,7 +4,7 @@ import {Link as LinkS} from 'react-scroll'
 //import './Scriptina_Pro-webfont.woff'
 
 export const Nav = styled.nav`
-    background: ${({scrollNav}) => (scrollNav ? '#154c79' : 'transparent')};
+    background: ${({scrollNav}) => (scrollNav ? '#12607b' : 'transparent')};
     height: 80px;
     margin-top : -80px;
     display: flex;

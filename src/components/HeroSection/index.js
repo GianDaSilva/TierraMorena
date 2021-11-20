@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import Video from '../../videos/video.mp4'
+import Video from '../../videos/maquina.mp4'
 import {
 HeroContainer,
 HeroBg, 
@@ -26,7 +26,7 @@ const HeroSection = () => {
                    <VideoBg autoPlay loop muted src={Video} type='video/mp4'/>
                </HeroBg>
                <HeroContent>
-                   <HeroH1> Virtual Banking Mode Easy</HeroH1>
+                   <HeroH1> Cantera Tierra Morena</HeroH1>
                    <HeroP>
                        Sign up for a new account today and receive $250 in credit
                        towards your

@@ -2,6 +2,7 @@ import React from 'react';
 import Icon1 from '../../images/svg-1.svg'
 import Icon2 from '../../images/svg-2.svg'
 import Icon3 from '../../images/svg-3.svg'
+import Icon4 from '../../images/Captura.png'
 import {
     ServicesContainer,
     ServicesH1,
@@ -28,7 +29,7 @@ const Services = () => {
                     <ServicesP>You can acces our platform online  anywhere in the world.</ServicesP>
                 </ServicesCard>
                 <ServicesCard>
-                    <ServicesIcon src={Icon3}/>
+                    <ServicesIcon src={Icon4}/>
                     <ServicesH2>Premium benefits</ServicesH2>
                     <ServicesP>Unlock our special membership card that returns 5% cash back.</ServicesP>
                 </ServicesCard>

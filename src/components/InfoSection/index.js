@@ -14,6 +14,11 @@ BtnWrap,
 ImgWrap,
 Img 
 } from './InfoElements';
+import Carousel from 'react-bootstrap/Carousel'
+import img1 from '../../images/Captura.png'
+import img2 from '../../images/Captura de pantalla 2021-11-29 180712.png'
+import CarouselContainer from '../CarouselContainer';
+
 
 const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkText, description, buttonLabel, img, alt, primary, dark, dark2}) => {
     return (
@@ -23,10 +28,9 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkT
                 <InfoRow imgStart={imgStart}>
                     <Column1>
                         <TextWrapper>
-                          <TopLine>{topLine}</TopLine> 
                           <Heading lightText={lightText}>{headline}</Heading>
                           <Subtitle darkText={darkText}>{description}</Subtitle>
-                          <BtnWrap>
+                          {/* <BtnWrap>
                               <Button to='home'
                               smooth={true}
                               duration={500}
@@ -38,13 +42,14 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkT
                               dark2={dark2 ? 1 : 0}>
                                   {buttonLabel}
                               </Button>
-                          </BtnWrap> 
+                          </BtnWrap>  */}
                         </TextWrapper>
                     </Column1>
                     <Column2>
-                        <ImgWrap>
-                            <Img src={img} alt={alt}/>
-                        </ImgWrap>
+                        {/* <ImgWrap> */}
+                            <CarouselContainer />
+                            {/* <Img src={img} alt={alt}/>  */}
+                        {/* </ImgWrap> */}
                     </Column2>
                 </InfoRow>
             </InfoWrapper>

@@ -19,7 +19,7 @@ export const Nav = styled.nav`
         transition: 0.8s all ease;
     }
 `
-
+// color azul #2e6e89
 export const NavbarContainer = styled.div`
     display: flex;
     justify-content: space-between;

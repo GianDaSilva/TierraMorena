@@ -3,34 +3,32 @@
  import foto3 from '../../images/svg-3.svg'
 
 export const homeObjOne = {
-    id: 'about',
-    lightBg: false,
-    lightText: true,
-    lightTextDesc: true,
-    topLine: 'Premium Bank',
-    headline: 'Unlimited Transactions with zero fees',
+    id: 'nosotros',
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
+    headline: 'Suelo seleccionado',
     description:
       'Get access to our exclusive app that allows you to send unlimited transactions without getting charged any fees',
     buttonLabel: 'Get Started',
-    imgStart: false,
+    imgStart: true,
     img: foto1,
     alt: 'Piggy',
     dark: false,
     primary: true,
-    darkText: false
+    darkText: true
   };
 
   export const homeObjTwo = {
-    id: 'discover',
+    id: 'ubicacion',
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
-    topLine: 'Unlimited Access',
-    headline: 'Login to your account at any time',
+    headline: 'Alquiler de camiones y maquinas',
     description:
       'We have you covered no matter where you are located. All you need is an internet connection and a phone or computer.',
     buttonLabel: 'Learn More',
-    imgStart: true,
+    imgStart: false,
     img: foto2,
     alt: 'Chart',
     dark: false,
@@ -39,16 +37,15 @@ export const homeObjOne = {
   };
 
   export const homeObjThree = {
-    id: 'signup',
+    id: 'contacto',
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
-    topLine: 'Join our Team',
-    headline: 'Creating an account is extremely easy',
+    headline: 'Obras viales',
     description:
       "Get everything set up and ready in under 10 minutes. All you need to do is add your information and you're ready to go.",
     buttonLabel: 'Start Now',
-    imgStart: false,
+    imgStart: true,
     img: foto3,
     alt: 'Chart2',
     dark: false,

@@ -28,12 +28,11 @@ const HeroSection = () => {
                <HeroContent>
                    <HeroH1> Cantera Tierra Morena</HeroH1>
                    <HeroP>
-                       Sign up for a new account today and receive $250 in credit
-                       towards your
-                       next payment
+                   En Cantera Tierra Morena contamos 
+                   con variedad de materiales y servicios.
                    </HeroP>
                    <HeroBtnWrapper>
-                       <Button to='signup' onMouseEnter={onHover} onMouseLeave={onHover} primary="true" dark="true" smooth={true} duration={500} spy={true} exact='true' offset={-80}>Get Started {hover ? <ArrowForward/> : <ArrowRight/>}
+                       <Button to='nosotros' onMouseEnter={onHover} onMouseLeave={onHover} primary="true" dark="true" smooth={true} duration={500} spy={true} exact='true' offset={-80}>Conocenos {hover ? <ArrowForward/> : <ArrowRight/>}
                        </Button>
                    </HeroBtnWrapper>
                </HeroContent>

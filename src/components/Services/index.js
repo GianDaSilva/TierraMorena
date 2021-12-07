@@ -1,8 +1,8 @@
 import React from 'react';
-import Icon1 from '../../images/svg-1.svg'
-import Icon2 from '../../images/svg-2.svg'
-import Icon3 from '../../images/svg-3.svg'
-import Icon4 from '../../images/Captura.png'
+import Icon1 from '../../images/roller-tractor.png'
+import Icon2 from '../../images/excavator.png'
+import Icon3 from '../../images/tipper (1).png'
+import Icon4 from '../../images/tow-truck.png'
 import {
     ServicesContainer,
     ServicesH1,
@@ -16,7 +16,7 @@ import {
 const Services = () => {
     return (
         <ServicesContainer id="services">
-            {/* <ServicesH1>Our services</ServicesH1> */}
+            <ServicesH1>Our services</ServicesH1> 
                 <ServicesWrapper>
                     <ServicesCard>
                     <ServicesIcon src={Icon1}/>
@@ -33,7 +33,6 @@ const Services = () => {
                     <ServicesH2>Premium benefits</ServicesH2>
                     <ServicesP>Unlock our special membership card that returns 5% cash back.</ServicesP>
                 </ServicesCard>
-                
             </ServicesWrapper>
         </ServicesContainer>
     )

@@ -8,7 +8,7 @@ import './styles.css';
 
 const CarouselContainer = () => {
   return (
-    <Carousel fade={true} pause={false}>
+    <Carousel fade={true} pause={false} >
       <Carousel.Item interval={2000}>
         <img
           className="d-block w-100"

@@ -1,6 +1,7 @@
  import foto1 from '../../images/Captura.png'
- import foto2 from '../../images/svg-2.svg'
- import foto3 from '../../images/svg-3.svg'
+ import foto2 from '../../images/Captura.png'
+ import foto3 from '../../images/Captura.png'
+
 
 export const homeObjOne = {
     id: 'nosotros',

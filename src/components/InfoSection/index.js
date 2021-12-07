@@ -46,10 +46,10 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkT
                         </TextWrapper>
                     </Column1>
                     <Column2>
-                        {/* <ImgWrap> */}
+                        <ImgWrap>
                             <CarouselContainer />
                             {/* <Img src={img} alt={alt}/>  */}
-                        {/* </ImgWrap> */}
+                        </ImgWrap> 
                     </Column2>
                 </InfoRow>
             </InfoWrapper>

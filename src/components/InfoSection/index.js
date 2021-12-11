@@ -18,7 +18,10 @@ import Carousel from 'react-bootstrap/Carousel'
 import img1 from '../../images/Captura.png'
 import img2 from '../../images/Captura de pantalla 2021-11-29 180712.png'
 import CarouselContainer from '../CarouselContainer';
+import Map from '../Location/index'
+import credentials from '../Location/credentials';
 
+const mapURL = `https://maps.googleapis.com/maps/api/js?v=3.exp&key=${credentials.mapsKey}`;
 
 const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkText, description, buttonLabel, img, alt, primary, dark, dark2}) => {
     return (
@@ -46,10 +49,16 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkT
                         </TextWrapper>
                     </Column1>
                     <Column2>
-                        <ImgWrap>
+                    <Map 
+                    googleMapURL= {mapURL}
+                    containerElement= {<div style={{height: '400px'}} />}
+                    mapElement= {<div style={{height:'100%'}}/>}
+                    loadingElement = {<p> Cargando </p>}
+                    />
+                        {/* <ImgWrap>
                             <CarouselContainer />
-                            {/* <Img src={img} alt={alt}/>  */}
-                        </ImgWrap> 
+                            {/* <Img src={img} alt={alt}/>  
+                        </ImgWrap>  */}
                     </Column2>
                 </InfoRow>
             </InfoWrapper>

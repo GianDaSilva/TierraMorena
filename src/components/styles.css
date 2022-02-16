@@ -1,5 +1,5 @@
 .carousel-inner{
      height: 350px;
-     width: 555px;
+     max-width: 555px;
 }
 

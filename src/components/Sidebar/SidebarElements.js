@@ -8,7 +8,7 @@ position: fixed;
 z-index: 999;
 width: 100%;
 height: 100%;
-background: #0d0d0d;
+background: #12607b;
 display: grid;
 align-items: center;
 top: 0;
@@ -17,8 +17,9 @@ transition: 0.3s ease-in-out;
 opacity: ${({ isOpen}) => (isOpen ? '100%': '0')};
 top: ${({ isOpen}) => (isOpen ? '0' : '-100%')}
 `
+
 export const CloseIcon = styled(FaTimes)`
-color: #fff;
+color: orange;
 `
 
 export const Icon = styled.div`
@@ -58,7 +59,7 @@ color: #fff;
 cursor: pointer;
 
 &:hover{
-    color: #01bf71;
+    color: orange;
     transition: 0.2s ease-in-out;
 }
 `
@@ -73,7 +74,7 @@ border-radius: 50px;
 background: #01bf71;
 white-space: nowrap;
 padding: 16px 64px;
-color: #010606;
+color: orange;
 font-size: 16px;
 outline: none;
 border: none;
@@ -84,6 +85,6 @@ text-decoration: none;
 &:hover {
     transition: all 0.2s ease-in-out;
     background: #fff;
-    color: #010606;
+    color: orange;
 }
 `

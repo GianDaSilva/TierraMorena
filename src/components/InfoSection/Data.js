@@ -1,6 +1,8 @@
  import foto1 from '../../images/Captura.png'
  import foto2 from '../../images/Captura.png'
  import foto3 from '../../images/Captura.png'
+ import foto4 from '../../images/contacto.svg'
+
 
 
 export const homeObjOne = {
@@ -21,35 +23,20 @@ export const homeObjOne = {
   };
 
   export const homeObjTwo = {
-    id: 'ubicacion',
-    lightBg: true,
-    lightText: false,
-    lightTextDesc: false,
-    headline: 'Alquiler de camiones y maquinas',
-    description:
-      'We have you covered no matter where you are located. All you need is an internet connection and a phone or computer.',
-    buttonLabel: 'Learn More',
-    imgStart: false,
-    img: foto2,
-    alt: 'Chart',
-    dark: false,
-    primary: false,
-    darkText: true
-  };
-
-  export const homeObjThree = {
     id: 'contacto',
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
-    headline: 'Obras viales',
+    headline: 'Contacto',
     description:
-      "Get everything set up and ready in under 10 minutes. All you need to do is add your information and you're ready to go.",
-    buttonLabel: 'Start Now',
+    'Podes contactarnos a traves de nuestras redes sociales, nuestro Whatsapp o nuestro mail. ',
+    buttonLabel: 'Learn More',
     imgStart: true,
-    img: foto3,
-    alt: 'Chart2',
+    img: foto4,
+    alt: 'contacto',
     dark: false,
-    primary: false,
+    primary: true,
     darkText: true
   };
+
+  

@@ -19,7 +19,6 @@ export const Nav = styled.nav`
         transition: 0.8s all ease;
     }
 `
-// color azul #2e6e89
 export const NavbarContainer = styled.div`
     display: flex;
     justify-content: space-between;
@@ -41,7 +40,10 @@ export const NavLogo = styled(LinkR)`
     text-decoration: none;
     color: orange;
     
-    
+    &:hover{
+    color: orange;
+    transition: 0.2s ease-in-out;   
+    }
 
 @font-face {font-family: "Scriptina Pro"; src: url("//db.onlinewebfonts.com/t/eef1c168497763b314670a275af92bc6.eot"); src: url("//db.onlinewebfonts.com/t/eef1c168497763b314670a275af92bc6.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/eef1c168497763b314670a275af92bc6.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/eef1c168497763b314670a275af92bc6.woff") format("woff"), url("//db.onlinewebfonts.com/t/eef1c168497763b314670a275af92bc6.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/eef1c168497763b314670a275af92bc6.svg#Scriptina Pro") format("svg"); }
 `
@@ -88,6 +90,9 @@ cursor: pointer;
   &.active {
     border-bottom: 3px solid orange;
   }
+  &:hover{
+    color: orange;
+}
 `
 
 export const NavBtn = styled.nav`
@@ -97,6 +102,7 @@ align-items: center;
 @media screen and (max-width: 768px) {
     display: none;
 }
+
 `
 
 export const NavBtnLink = styled(LinkR)`
@@ -117,4 +123,5 @@ text-decoration: none;
     background: #fff;
     color: #010606;
 }
+
 `
